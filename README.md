@@ -2,7 +2,7 @@
 
 <h3>Capstone Project for DS112 (Principles of Data Science) Fall 2024</h3>
 
-This project uses quantitative and qualitative data from 89,893 RMP records to evaluate professor effectiveness through various factors using statistical methods, relationships, and data visualization. The goal is to answer specific questions that include professor ratings and difficulty, biases, and model predictors.
+This project uses quantitative and qualitative data from 89,893 RMP records to evaluate professor effectiveness through various factors including Average Ratings, Average Difficulty, Number of Ratings, Gender, etc. Through analysis of statistical methods, relationships, and data visualization, the aim is to answer specific questions that analyzes these predictors and potential biases.
 
 <h3><b>Data Overview</b></h3>
 <p>This project contains two datasets.</p>
