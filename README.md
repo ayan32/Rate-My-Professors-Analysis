@@ -88,8 +88,8 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
   <li><b>Seaborn:</b> Data Visualization</li>
   <li><b>SciPy:</b> Statistical Tests and Tests for Correlation</li>
   <li><b>Scikit-learn:</b> Machine Learning Models</li>
-  <li><b>Statsmodels:</b> Statistical models including Ordinary Least Squares (OLS)</li>
-  <li><b>Microsoft Word:</b> Write the report highlighting findings and insights</li>
+  <li><b>Statsmodels:</b> Statistical Models including Ordinary Least Squares (OLS)</li>
+  <li><b>Microsoft Word:</b> Write the Report Highlighting Findings and Insights</li>
 </ul>
 
 <h3>Key Findings</h3>
