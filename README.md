@@ -5,28 +5,32 @@
 This project uses quantitative and qualitative data from 89,893 RMP records to evaluate professor effectiveness through various factors using statistical methods, relationships, and data visualization. The goal is to answer specific questions that include professor ratings and difficulty, biases, and model predictors.
 
 <h3><b>Data Overview</b></h3>
-<ul>
-  <li>This project contains two datasets:</li>
-  1. <b>rmpCapstoneNum.csv:</b> Contains numerical and binary data about professors.
+<p>This project contains two datasets.</p>
+<ol>
+  <li><b>rmpCapstoneNum.csv:</b> Contains numerical and binary data about professors.</li>
   <ul>
     <li>Columns:</li>
-      1. Average Rating<br>
-      2. Average Difficulty<br>
-      3. Number of Ratings<br>
-      4. Pepper? (Boolean - was this professor rated as “hot”?)<br>
-      5. Proportion of Students Who Would Take the Class Again<br>
-      6. Number of Online Ratings<br>
-      7. Male (Boolean – 1 if the Professor is Male)<br>
-      8. Female (Boolean – 1 if the Professor is Female)
+    <ol type=1>
+      <li>Average Rating</li>
+      <li>Average Difficulty</li>
+      <li>Number of Ratings</li>
+      <li>Pepper? (Boolean - was this professor rated as “hot”?)</li>
+      <li>Proportion of Students Who Would Take the Class Again</li>
+      <li>Number of Online Ratings</li>
+      <li>Male (Boolean – 1 if the Professor is Male)</li>
+      <li>Female (Boolean – 1 if the Professor is Female)</li>
+    </ol>
   </ul>
-    2. <b>rmpCapstoneQual.csv:</b> Contains qualitative information about professors.
+  <li><b>rmpCapstoneQual.csv:</b> Contains qualitative information about professors.</li>
     <ul>
-    <li>Columns:</li>
-        1. Major/Field<br>
-        2. University<br>
-        3. US State (2-Letter Abbreviation)
+      <li>Columns:</li>
+      <ol type=1>
+        <li>Major/Field</li>
+        <li>University</li>
+        <li>US State (2-Letter Abbreviation)</li>
+      </ol>
     </ul>
-</ul>
+</ol>
 
 <h3>Questions Answered</h3>
 <p>This project answers 10 specific questions with an additional bonus section.</p>
@@ -88,4 +92,4 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
 </ul>
 
 <h3>Contact</h3>
-If you have any questions, concerns, issues, or suggestions, please reach out to <a href="mailto:andrewyan32@gmail.com">Andrew Yan</a>.
+For any inquires or suggestions, don't hesitate to reach out to <a href="mailto:andrewyan32@gmail.com">Andrew Yan</a>.
