@@ -72,10 +72,36 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
   </ul>
   <li><b>Data Visualization:</b></li>
   <ul>
-    <li>Generated plots including Histograms and Scatter Plots with Regression Lines to illustrate relationships between predictors.</li>
+    <li>Generated plots including Histograms and Scatter Plots with Regression Lines and Bar Plot to illustrate relationships between predictors.</li>
     <li>Classified model performance using metrics like AUROC curves and Confusion Matrices.</li>
   </ul>
 </ol>
+
+<h3>Tools and Modules Used</h3>
+<ul>
+  <li><b>Python:</b> Main Programming Language</li>
+  <li><b>Spyder:</b> Software for Code Development and Analysis</li>
+  <li><b>Pandas:</b> Data Manipulation and Preprocessing</li>
+  <li><b>NumPy:</b> Numerical Operations</li>
+  <li><b>Random:</b> Seed the Random Number Generator</li>
+  <li><b>Matplotlib:</b> Data Visualization</li>
+  <li><b>Seaborn:</b> Data Visualization</li>
+  <li><b>SciPy:</b> Statistical Tests and Tests for Correlation</li>
+  <li><b>Scikit-learn:</b> Machine Learning Models</li>
+  <li><b>Statsmodels:</b> Statistical models including Ordinary Least Squares (OLS)</li>
+</ul>
+
+<h3>Key Findings</h3>
+<ul>
+  <li>There is evidence of pro-male gender bias where Male professors generally receive higher ratings than Female professors.</li>
+  <li>There is a weak effect between teaching experience and quality of teaching. More experienced professors have a slightly higher rating.</li>
+  <li>There is a moderate negative correlation between Average Ratings and Average Difficulty. This means the higher the professor rating, the lower their difficulty, and vice versa. There is a strong positive correlation between Average Ratings and Would Take Again. This means the higher the professor rating, the higher proportion that would take the professor again.</li>
+  <li>Professors who teach more online classes tend to have lower ratings than professors who teach less online classes.</li>
+  <li>Professors who are deemed "hot" receive higher ratings than professors that are not deemed "hot".</li>
+  <li>Using regression with multiple predictors, Average Difficulty has a negative influence on Average Ratings, Would Take Again and Received a "Pepper"? both have positive influence, and Number of Total and Online Ratings and Gender have no influence on Average Ratings.</li>
+  <li>The AUC for classification with multiple predictors is stronger than using a single predictor, which can improve the predictions.</li>
+  <li>Overall, professors who teach STEM fields have a lower rating and higher difficulty than professors in non-STEM fields. Based on Cohen's d, the effect size is more significant for Average Ratings than for Average Difficulty.</li>
+</ul>
 
 <h3>Project Deliverables</h3>
 <p>This project contains two deliverable files.</p>
