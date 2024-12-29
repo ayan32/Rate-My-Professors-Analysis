@@ -88,4 +88,4 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
 </ul>
 
 <h3>Contact</h3>
-<p>If you have any questions, concerns, issues, or suggestions, please reach out to [Andrew Yan](mailto:andrewyan32@gmail.com).</p>
+If you have any questions, concerns, issues, or suggestions, please reach out to [Andrew Yan](mailto:andrewyan32@gmail.com).
