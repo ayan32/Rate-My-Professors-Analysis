@@ -4,7 +4,7 @@
 
 This project uses quantitative and qualitative data from 89,893 RMP records to evaluate professor effectiveness through various factors using statistical methods, relationships, and data visualization. The goal is to answer specific questions that include professor ratings and difficulty, biases, and model predictors.
 
-<h4><b>Data Overview</b></h4>
+<h3><b>Data Overview</b></h3>
 <ul>
   <li>This project contains two datasets:</li>
   1. <b>rmpCapstoneNum.csv:</b> Contains numerical and binary data about professors.
@@ -28,8 +28,8 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
     </ul>
 </ul>
 
-<h4>Questions Answered:</h4>
-<p>This project specifically answers 10 primary questions with an Extra Credit section.</p>
+<h3>Questions Answered</h3>
+<p>This project answers 10 specific questions with an additional bonus section.</p>
 <ol>
   <li><b>Gender Bias:</b> Tests whether male professors receive higher ratings than female professors.</li>
   <li><b>Teaching Experience:</b> Explores the relationship between Teaching Experience (proxied by Number of Ratings) and the Quality of Teaching (Average Rating).</li>
@@ -44,7 +44,7 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
 </ol>
 <p>Additionally, I analyzed whether professors in STEM fields receive higher or lower ratings and difficulty levels than professors not in STEM fields.</p>
 
-<h4>Key Steps:</h4>
+<h3>Key Steps</h3>
 <ol>
   <li><b>Data Preprocessing:</b></li>
   <ul>
@@ -58,11 +58,13 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
     <li>Used an alpha level of 0.005 as the threshold for statistical significance to account for potential false positives and correct for multiple comparisons.</li>
     <li>Used Ordinary Least Squares to compare the effect between teaching experience and the quality of teaching.</li>
     <li>Calculated Pearson and Spearman's Correlation Coefficients to measure the strength of relationships.</li>
+    <li>Performed bootstrapping for 95% Confidence Intervals and Cohen's d Effect Size to compare the Ratings and Difficulty ranges between STEM and non-STEM majors and the significance of the outcomes.</li>
   </ul>
   <li><b>Building Models:</b></li>
   <ul>
     <li>Built Regression Models to predict Average Ratings from Average Difficulty only and then all available factors.</li>
     <li>Built Classification Models to predict Whether a Professor will Receive a "Pepper" from Average Ratings only and then all available factors, using metrics like AUROC and Confusion Matrices.</li>
+    <li>Performed 80/20 train/test splits and 5-fold cross-validations to assess the reliability of the data while also addressing overfitting concerns.</li>
   </ul>
   <li><b>Data Visualization:</b></li>
   <ul>
@@ -71,8 +73,19 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
   </ul>
 </ol>
 
-<h4>Project Deliverables:</h4>
-<p>This project includes two deliverable files that contain my answers and codes to the questions.</p>
+<h3>Project Deliverables</h3>
+<p>This project contains two deliverable files.</p>
 <ol>
-  <li><b></b></li>
+  <li><b>CapstoneProjectReport.pdf:</b> The project report that contains the full answers to the questions including visuals and results along with an introductory paragraph about data preprocessing.</li>
+  <li><b>CapstoneProject.py:</b> The Python code file that produced the data analysis and visuals.</li>
 </ol>
+
+<h3>Important Notes</h3>
+<ul>
+  <li><b>RNG Seeding:</b> To ensure reproducibility, the code begins by seeding the random number generator with a unique number. This ensures that the train/test splits and bootstrapping are keyed consistently to this number.</li>
+  <li><b>Missing Data:</b> Missing data was handled by removing rows with missing values as this was a small proportion of after the preprocessed data. This was done separately for each question as they each required different columns, and to maximize the available data throughout the project.</li>
+  <li><b>Alpha Level:</b> An alpha level of 0.005 was used throughout the analysis to account for potential false positives and multiple comparisons.</li>
+</ul>
+
+<h3>Contact</h3>
+<p>If you have any questions, concerns, issues, or suggestions, please reach out to [Andrew Yan](mailto:andrewyan32@gmail.com).</p>
