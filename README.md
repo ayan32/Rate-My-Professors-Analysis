@@ -81,6 +81,7 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
 <ul>
   <li><b>Python:</b> Main Programming Language</li>
   <li><b>Spyder:</b> Software for Code Development and Analysis</li>
+  <li><b>Jupyter Lab:</b> Software for Code Development as a Notebook Version</li>
   <li><b>Pandas:</b> Data Manipulation and Preprocessing</li>
   <li><b>NumPy:</b> Numerical Operations</li>
   <li><b>Random:</b> Seed the Random Number Generator</li>
