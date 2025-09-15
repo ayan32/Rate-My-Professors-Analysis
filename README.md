@@ -82,6 +82,7 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
   <li><b>Python:</b> Main Programming Language</li>
   <li><b>Spyder:</b> Software for Code Development and Analysis</li>
   <li><b>Jupyter Lab:</b> Software for Code Development as a Notebook Version</li>
+  <li><b>Microsoft Word:</b> Write the Report Highlighting Findings and Insights</li>
   <li><b>Pandas:</b> Data Manipulation and Preprocessing</li>
   <li><b>NumPy:</b> Numerical Operations</li>
   <li><b>Random:</b> Seed the Random Number Generator</li>
@@ -90,7 +91,6 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
   <li><b>SciPy:</b> Statistical Tests and Tests for Correlation</li>
   <li><b>Scikit-learn:</b> Machine Learning Models</li>
   <li><b>Statsmodels:</b> Statistical Models including Ordinary Least Squares (OLS)</li>
-  <li><b>Microsoft Word:</b> Write the Report Highlighting Findings and Insights</li>
 </ul>
 
 <h3>Key Findings</h3>
