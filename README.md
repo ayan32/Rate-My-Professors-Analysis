@@ -105,10 +105,11 @@ This project uses quantitative and qualitative data from 89,893 RMP records to e
 </ul>
 
 <h3>Project Deliverables</h3>
-<p>This project contains two deliverable files.</p>
+<p>This project contains three deliverable files.</p>
 <ol>
   <li><b>CapstoneProjectReport.pdf:</b> The project report that contains the full answers to the questions including visuals and results along with an introductory paragraph about data preprocessing.</li>
-  <li><b>CapstoneProject.py:</b> The Python code file that produced the data analysis and visuals.</li>
+  <li><b>CapstoneProject.py:</b> The Python code file that produced the data analysis and visuals. Done through Spyder.</li>
+  <li><b>CapstoneProject.ipynb:</b> The Jupyter Notebook version of the above file that also contains the values and visuals.</li>
 </ol>
 
 <h3>Important Notes</h3>
